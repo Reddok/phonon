@@ -1,5 +1,9 @@
-import numpy as np
+from __future__ import division
+import scipy as sc
+import sys
+s = set()
 
-b = np.add([1,1,1], [2,2,2])
+s.add([1,1,1])
+s.add([1,1,1])
 
-print np.concatenate([[[1,1,1]], [[2,2,2]]])
+print(s)
